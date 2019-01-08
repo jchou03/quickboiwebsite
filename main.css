@@ -15,7 +15,7 @@ h2{
 	color:blue;
 }
 .body{
-	float:left;
+	float:right;
 	margin-top:30px;
   margin:20px;
 	background-color: #ffffff;
@@ -24,4 +24,18 @@ h2{
 
 p{
 	margin: 5px;
+}
+nav{
+	float:left;
+	height:500px;
+	background-color:#1a1a1a;
+	margin:0px;
+}
+
+nav a{
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+	width:50px;
 }
