@@ -21,6 +21,7 @@ h2{
 	background-color: #ffffff;
 	width: 70%;
 }
+
 p{
 	margin: 5px;
 }
@@ -28,22 +29,13 @@ nav{
 	float:left;
 	min-height:100vh;
 	background-color:#1a1a1a;
-	margin-left:-10px;
+	margin:0px;
 }
-nav a{
-  color: #99ff33;
-  display: block;
-  padding: 12px;	background-color:#1a1a1a;
-}
+
 nav a{
   color: #99ff33;
   display: block;
   padding: 12px;
   text-decoration: none;
 	width:50px;
-  text-decoration: none;
-	width:50px;
-}
-nav a:hover{
-	background-color:#006600;
 }
