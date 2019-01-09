@@ -29,7 +29,7 @@ nav{
 	float:left;
 	min-height:100vh;
 	background-color:#1a1a1a;
-	margin:0px;
+	margin-left:-10px;
 }
 
 nav a{
@@ -38,4 +38,8 @@ nav a{
   padding: 12px;
   text-decoration: none;
 	width:50px;
+}
+
+nav a:hover{
+	background-color:#006600;
 }
