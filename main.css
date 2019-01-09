@@ -33,11 +33,6 @@ nav{
 nav a{
   color: #99ff33;
   display: block;
-  padding: 12px;	background-color:#1a1a1a;
-}
-nav a{
-  color: #99ff33;
-  display: block;
   padding: 12px;
   text-decoration: none;
 	width:50px;
@@ -46,4 +41,11 @@ nav a{
 }
 nav a:hover{
 	background-color:#006600;
+}
+
+.showme{
+	display:none;
+}
+.showhim.hover .showme{
+	display:block;
 }
