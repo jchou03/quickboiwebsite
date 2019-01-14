@@ -1,3 +1,3 @@
-function putsNumber(value){
-    return value + 1;
+function changeBackground(color){
+    document.body.style.backgroundColor = color;
 }
