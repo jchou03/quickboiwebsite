@@ -4,9 +4,14 @@
 		<meta charset="utf8" />
 		<title>Expired Egg</title>
 		<link rel="stylesheet" type="text/css" href="main.css" />
+
+		<!--Stuff for jquery that I forgot how to do-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="script.js"></script>
+		<script src="javascript.js"></script>
 	</head>
 	<body>
-<nav>
+		<nav>
 			<a class="currentPage" href="index.html">Home</a>
 			<a href="index.html">Current Projects</a>
 			<a href="index.html">Contact</a>
@@ -34,6 +39,21 @@
 			</h2>
 			<p>
 				<b>dominic is banana coz he plays into the breach</b>
+			</p>
+		</div>
+		<div class="body">
+			<h2>Javascript stuff</h2>
+			<button onclick="document.getElementById('banana').innerHTML = putsNumber(7)">Click this button to do stuff</button>
+			<p id="banana" innerHTML = putsNumber(7)>it did not work;</p>
+
+			<h2>Me failing at using jquery that I did a long time ago with help and that I forgot how to do</h2>
+			<p id="score">Your current score is 0</p>
+			<p id="lives">
+ 				 You have 3 lives now
+			</p>
+			<canvas id="myCanvas" height="330" width="500"></canvas>
+			<p id="gameOver">
+				
 			</p>
 		</div>
 	</body>
